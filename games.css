@@ -1,0 +1,211 @@
+.games-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #00141f;
+}
+ 
+.games-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-twounits);
+  justify-content: space-between;
+}
+ 
+.games-navlink1 {
+  display: contents;
+}
+ 
+.games-image {
+  width: 200px;
+  object-fit: cover;
+  text-decoration: none;
+}
+ 
+.games-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.games-links1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-layout-radius-radius4);
+  justify-content: center;
+}
+ 
+.games-navlink2 {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  text-align: justify;
+  text-decoration: none;
+}
+ 
+.games-navlink3 {
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  margin-left: var(--dl-layout-space-twounits);
+  text-decoration: none;
+}
+ 
+.games-burger-menu {
+  display: none;
+}
+ 
+.games-icon10 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.games-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+ 
+.games-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.games-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.games-logo {
+  height: 2rem;
+}
+ 
+.games-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.games-icon12 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.games-links2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.games-text1 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.games-text2 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.games-text3 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.games-text4 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.games-text5 {
+  margin-bottom: var(--dl-layout-space-unit);
+}
+ 
+.games-buttons {
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-layout-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ 
+.games-login {
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.games-icon14 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.games-icon16 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+  margin-right: var(--dl-layout-space-twounits);
+}
+ 
+.games-icon18 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+@media(max-width: 767px) {
+  .games-navbar-interactive {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .games-desktop-menu {
+    display: none;
+  }
+  .games-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .games-text1 {
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .games-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .games-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .games-text4 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+  .games-text5 {
+    margin-left: 0;
+    margin-bottom: var(--dl-layout-space-unit);
+  }
+}
+ 
+@media(max-width: 479px) {
+  .games-navbar-interactive {
+    padding: var(--dl-layout-space-unit);
+  }
+  .games-mobile-menu {
+    padding: 16px;
+  }
+}
